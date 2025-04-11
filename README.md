@@ -1,36 +1,105 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Terminal Portfolio
+
+A modern, interactive terminal-style portfolio website built with Next.js and TypeScript. This project creates an engaging terminal-like interface to showcase your projects, skills, and contact information in a unique way.
+
+![Terminal Portfolio Screenshot](screenshot.png)
+
+## Features
+
+- 💻 Terminal-style interface with command-line interaction
+- 🚀 Interactive command system with history navigation
+- 📁 Project showcase with detailed information
+- 🛠️ Skills and experience display
+- 📱 Responsive design that works on all devices
+- 🎨 Customizable styling with CSS variables
+- ⚡ Built with Next.js and TypeScript for optimal performance
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 18.0 or later
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/terminal-portfolio.git
+cd terminal-portfolio
+```
+
+2. Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Run the development server
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Available Commands
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The terminal interface supports the following commands:
 
-## Learn More
+- `help` - Display available commands
+- `about` - Learn about the portfolio owner
+- `skills` - View technical skills
+- `projects` - Browse projects
+- `contact` - Get contact information
+- `clear` - Clear the terminal screen
 
-To learn more about Next.js, take a look at the following resources:
+## Customization
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Personal Information
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To customize the portfolio with your information, edit the following files:
 
-## Deploy on Vercel
+- `src/components/Terminal.tsx` - Update the command responses with your personal information, projects, and skills
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Styling
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+You can customize the appearance by modifying the CSS variables in `src/app/globals.css`:
+
+```css
+:root {
+  --background: #0a0a0a;         /* Main background color */
+  --foreground: #ededed;         /* Main text color */
+  --terminal-bg: #1e1e1e;        /* Terminal background */
+  --terminal-text: #f8f8f8;      /* Terminal text color */
+  --terminal-prompt: #4caf50;    /* Command prompt color */
+  --accent-color: #4caf50;       /* Accent color for highlights */
+  --secondary-color: #03a9f4;    /* Secondary accent color */
+}
+```
+
+## Deployment
+
+This project can be easily deployed to Vercel:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fyourusername%2Fterminal-portfolio)
+
+Alternatively, you can build the project for production:
+
+```bash
+npm run build
+npm run start
+```
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- Built with [Next.js](https://nextjs.org)
+- Styled with CSS
+- Icons from [React Icons](https://react-icons.github.io/react-icons/)
+- Animations powered by [Framer Motion](https://www.framer.com/motion/)
