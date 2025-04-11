@@ -659,3 +659,24 @@ body::before {
     gap: 1.5rem !important;
   }
 }
+
+/* Social Icon Link Styling */
+.social-icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--foreground);
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  position: relative;
+  background-color: rgba(30, 50, 90, 0.5);
+  padding: 0.75rem;
+  margin: 0 0.5rem;
+}
+
+.social-icon-link:hover {
+  color: var(--accent-color);
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background-color: rgba(40, 70, 120, 0.7);
+}

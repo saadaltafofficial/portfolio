@@ -31,28 +31,22 @@ const GUIPortfolio: React.FC = () => {
             />
           </motion.div>
           <motion.h1 
-            className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-text"
+            className="text-5xl md:text-6xl font-bold mb-4 bg-gradient-text"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2, duration: 0.8 }}
           >
             Saad Altaf
           </motion.h1>
-          <motion.h2 
-            className="text-xl md:text-2xl mb-6 text-[var(--foreground)] opacity-90"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.4, duration: 0.8 }}
-          >
-            React + TypeScript Developer
-          </motion.h2>
           <motion.p 
             className="max-w-2xl mx-auto text-[var(--foreground)] opacity-80 mb-8"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6, duration: 0.8 }}
           >
-            Currently exploring <span className="text-[var(--info-color)]">Web3</span> and <span className="text-[var(--warning-color)]">Creative Development</span> with GSAP & Three.js
+            I&apos;m a Dev who builds fast UIs, smart backends, and real-world dApps. <span className="text-[var(--info-color)]">React + TypeScript</span> on the front. <span className="text-[var(--warning-color)]">Blockchain</span> and Python automation behind the scenes.
+            
+            Also crafting sites with WordPress, Webflow, and Shopify. Let&apos;s create something meaningful.
           </motion.p>
           <motion.p 
             className="text-sm text-[var(--foreground)] opacity-60 text-center w-full"
@@ -63,19 +57,19 @@ const GUIPortfolio: React.FC = () => {
             Scroll down to explore my work and skills
           </motion.p>
           <motion.div 
-            className="flex justify-center space-x-4"
+            className="flex justify-center space-x-8"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8, duration: 0.5 }}
           >
             <a href="https://github.com/saadaltafofficial" target="_blank" rel="noopener noreferrer" className="social-icon-link">
-              <FaGithub size={24} />
+              <FaGithub size={28} />
             </a>
             <a href="https://linkedin.com/in/osaadaltaf" target="_blank" rel="noopener noreferrer" className="social-icon-link">
-              <FaLinkedin size={24} />
+              <FaLinkedin size={28} />
             </a>
             <a href="mailto:saadaltaf986@gmail.com" className="social-icon-link">
-              <FaEnvelope size={24} />
+              <FaEnvelope size={28} />
             </a>
           </motion.div>
         </div>
@@ -90,13 +84,13 @@ const GUIPortfolio: React.FC = () => {
         
         <div className="gui-card">
           <p className="mb-4">
-            I&apos;m Saad Altaf, a passionate Frontend Developer currently working at Beenco. Based in Pakistan, I specialize in creating modern web applications with React and TypeScript. My journey in tech began with a fascination for creating interactive user experiences, and I&apos;ve been building and learning ever since.
+            I&apos;m Saad Altaf —— a curious builder who started with frontend design and ended up diving deep into full stack and blockchain development. I love working with modern tools like React and TypeScript, but I also thrive in backend systems, server setups, and scripting in Python for automation and AI.
           </p>
           <p className="mb-4">
-            I specialize in frontend development using React, TypeScript, and modern JavaScript. I&apos;m experienced in building responsive, accessible, and performant web applications with clean, maintainable code. I&apos;m also exploring Web3 technologies and creative development with GSAP and Three.js.
+            I&apos;ve developed practical blockchain apps, tinkered with validators and nodes, and handled Linux servers on Ubuntu and Kali. I also enjoy designing and managing websites through platforms like Shopify, WordPress, and Webflow.
           </p>
           <p>
-            When I&apos;m not coding, you can find me exploring new technologies, contributing to open-source projects, reading technical blogs, or enjoying the outdoors. I&apos;m passionate about continuous learning and staying updated with the latest industry trends in web development and design.
+            Whether it&apos;s writing clean UI code or building smart on-chain tools, I find joy in solving problems and learning something new every day.
           </p>
         </div>
       </section>
