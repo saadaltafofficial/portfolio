@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import Image from 'next/image';
 import TerminalPrompt from '@/components/TerminalPrompt';
 import TerminalOutput from '@/components/TerminalOutput';
 
@@ -33,12 +34,12 @@ const Terminal: React.FC = () => {
     const welcomeMessage = (
       <div className="mb-4">
         <div className="terminal-profile-container">
-          <img src="/dp.png" alt="Saad Altaf" className="terminal-profile-image" />
+          <Image src="/dp.png" alt="Saad Altaf" className="terminal-profile-image" width={80} height={80} />
         </div>
         <p className="typing-effect text-xl mb-4" style={{ width: '100%', animationDuration: '2s' }}>
-          <span style={{ color: 'var(--gradient-start)' }}>Welcome</span> <span style={{ color: 'var(--gradient-end)' }}>to Saad's Terminal Portfolio!</span>
+          <span style={{ color: 'var(--gradient-start)' }}>Welcome</span> <span style={{ color: 'var(--gradient-end)' }}>to Saad&apos;s Terminal Portfolio!</span>
         </p>
-        <p className="mb-3">I'm a <span style={{ color: 'var(--accent-color)' }}>React + TypeScript Developer</span> passionate about creating beautiful web experiences.</p>
+        <p className="mb-3">I&apos;m a <span style={{ color: 'var(--accent-color)' }}>React + TypeScript Developer</span> passionate about creating beautiful web experiences.</p>
         <p className="mb-3">Currently exploring <span style={{ color: 'var(--info-color)' }}>Web3</span> and <span style={{ color: 'var(--warning-color)' }}>Creative Development</span> with GSAP & Three.js</p>
         <p className="mb-3">Type <span style={{ color: 'var(--warning-color)' }}>&apos;help&apos;</span> to see available commands.</p>
         <p className="text-sm opacity-70">© {new Date().getFullYear()} - Saad Altaf</p>
@@ -72,12 +73,7 @@ const Terminal: React.FC = () => {
     }, 100);
   };
   
-  // Focus the input field when the terminal is clicked
-  const handleTerminalClick = () => {
-    if (inputRef.current) {
-      inputRef.current.focus();
-    }
-  };
+  // Terminal click handler is implemented directly in the JSX onClick
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === 'ArrowUp') {
@@ -128,22 +124,22 @@ const Terminal: React.FC = () => {
             
             <div className="project-card">
               <h3>Background</h3>
-              <p>I'm Saad Altaf, a passionate Frontend Developer currently working at Beenco. Based in Pakistan, I specialize in creating modern web applications with React and TypeScript. My journey in tech began with a fascination for creating interactive user experiences, and I've been building and learning ever since.</p>
+              <p>I&apos;m Saad Altaf, a passionate Frontend Developer currently working at Beenco. Based in Pakistan, I specialize in creating modern web applications with React and TypeScript. My journey in tech began with a fascination for creating interactive user experiences, and I&apos;ve been building and learning ever since.</p>
             </div>
             
             <div className="project-card">
               <h3>Expertise</h3>
-              <p>I specialize in frontend development using React, TypeScript, and modern JavaScript. I'm experienced in building responsive, accessible, and performant web applications with clean, maintainable code. I'm also exploring Web3 technologies and creative development with GSAP and Three.js.</p>
+              <p>I specialize in frontend development using React, TypeScript, and modern JavaScript. I&apos;m experienced in building responsive, accessible, and performant web applications with clean, maintainable code. I&apos;m also exploring Web3 technologies and creative development with GSAP and Three.js.</p>
             </div>
             
             <div className="project-card">
               <h3>Education & Work</h3>
-              <p>I studied at Virtual University of Pakistan and currently work as a Frontend Engineer. I've worked on numerous projects ranging from business websites to complex web applications, always focusing on delivering high-quality code and exceptional user experiences.</p>
+              <p>I studied at Virtual University of Pakistan and currently work as a Frontend Engineer. I&apos;ve worked on numerous projects ranging from business websites to complex web applications, always focusing on delivering high-quality code and exceptional user experiences.</p>
             </div>
             
             <div className="project-card">
               <h3>Interests</h3>
-              <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, reading technical blogs, or enjoying the outdoors. I'm passionate about continuous learning and staying updated with the latest industry trends in web development and design.</p>
+              <p>When I&apos;m not coding, you can find me exploring new technologies, contributing to open-source projects, reading technical blogs, or enjoying the outdoors. I&apos;m passionate about continuous learning and staying updated with the latest industry trends in web development and design.</p>
             </div>
           </div>
         );
@@ -314,7 +310,7 @@ const Terminal: React.FC = () => {
               </div>
             </div>
             
-            <p className="mt-3">Feel free to reach out! I'm always open to new opportunities and collaborations in React, TypeScript, and Web3 development.</p>
+            <p className="mt-3">Feel free to reach out! I&apos;m always open to new opportunities and collaborations in React, TypeScript, and Web3 development.</p>
           </div>
         );
         

@@ -2,7 +2,8 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaEnvelope, FaCode, FaLaptopCode, FaUserAlt, FaProjectDiagram } from 'react-icons/fa';
+import Image from 'next/image';
+import { FaGithub, FaLinkedin, FaEnvelope, FaCode, FaUserAlt, FaProjectDiagram } from 'react-icons/fa';
 
 const GUIPortfolio: React.FC = () => {
   return (
@@ -21,10 +22,12 @@ const GUIPortfolio: React.FC = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.1, duration: 0.6 }}
           >
-            <img 
+            <Image 
               src="/dp.png" 
               alt="Saad Altaf" 
               className="profile-image" 
+              width={120}
+              height={120}
             />
           </motion.div>
           <motion.h1 
@@ -87,13 +90,13 @@ const GUIPortfolio: React.FC = () => {
         
         <div className="gui-card">
           <p className="mb-4">
-            I'm Saad Altaf, a passionate Frontend Developer currently working at Beenco. Based in Pakistan, I specialize in creating modern web applications with React and TypeScript. My journey in tech began with a fascination for creating interactive user experiences, and I've been building and learning ever since.
+            I&apos;m Saad Altaf, a passionate Frontend Developer currently working at Beenco. Based in Pakistan, I specialize in creating modern web applications with React and TypeScript. My journey in tech began with a fascination for creating interactive user experiences, and I&apos;ve been building and learning ever since.
           </p>
           <p className="mb-4">
-            I specialize in frontend development using React, TypeScript, and modern JavaScript. I'm experienced in building responsive, accessible, and performant web applications with clean, maintainable code. I'm also exploring Web3 technologies and creative development with GSAP and Three.js.
+            I specialize in frontend development using React, TypeScript, and modern JavaScript. I&apos;m experienced in building responsive, accessible, and performant web applications with clean, maintainable code. I&apos;m also exploring Web3 technologies and creative development with GSAP and Three.js.
           </p>
           <p>
-            When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, reading technical blogs, or enjoying the outdoors. I'm passionate about continuous learning and staying updated with the latest industry trends in web development and design.
+            When I&apos;m not coding, you can find me exploring new technologies, contributing to open-source projects, reading technical blogs, or enjoying the outdoors. I&apos;m passionate about continuous learning and staying updated with the latest industry trends in web development and design.
           </p>
         </div>
       </section>
@@ -276,7 +279,7 @@ const GUIPortfolio: React.FC = () => {
           
           <div className="w-full flex justify-center mt-8">
             <p className="text-center max-w-2xl">
-              Feel free to reach out! I'm always open to new opportunities and collaborations in React, TypeScript, and Web3 development.
+              Feel free to reach out! I&apos;m always open to new opportunities and collaborations in React, TypeScript, and Web3 development.
             </p>
           </div>
         </div>
