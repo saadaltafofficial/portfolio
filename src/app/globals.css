@@ -60,8 +60,6 @@ body::before {
 .terminal-header {
   background-color: rgba(15, 23, 42, 0.9);
   padding: 0.75rem 1.25rem;
-  display: flex;
-  align-items: center;
   border-bottom: 1px solid rgba(56, 189, 248, 0.1);
 }
 
@@ -69,8 +67,9 @@ body::before {
   width: 0.75rem;
   height: 0.75rem;
   border-radius: 9999px;
-  margin: 0 0.25rem;
+  margin-right: 2px;
   transition: transform 0.2s ease;
+  display: inline-block;
 }
 
 .terminal-button:nth-child(1) {
@@ -94,7 +93,7 @@ body::before {
   color: rgba(255, 255, 255, 0.7);
   font-size: 0.85rem;
   font-family: monospace;
-  margin-left: 10px;
+  margin-top: 3px;
 }
 
 .terminal-content {
@@ -274,6 +273,7 @@ body::before {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 1rem;
+  
 }
 
 .section-container {

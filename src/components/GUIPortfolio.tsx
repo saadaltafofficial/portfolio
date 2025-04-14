@@ -145,6 +145,7 @@ const GUIPortfolio: React.FC = () => {
           <div className="gui-card">
             <h3 className="card-title">Design & Other</h3>
             <div className="flex flex-wrap gap-2 mt-3">
+              <span className="gui-tag">Figma</span>
               <span className="gui-tag">UI/UX Design</span>
               <span className="gui-tag">Responsive Design</span>
               <span className="gui-tag">Creative Coding</span>
@@ -167,18 +168,16 @@ const GUIPortfolio: React.FC = () => {
             className="gui-card project-card-gui"
             whileHover={{ y: -5, transition: { duration: 0.2 } }}
           >
-            <h3 className="card-title">Web3 Wallet Dashboard</h3>
-            <p className="mb-4">A modern dashboard for Web3 wallets with transaction history, portfolio tracking, and NFT display capabilities.</p>
+            <h3 className="card-title">Assembly Endgame</h3>
+            <p className="mb-4">Guess the word in under 8 attempts to keep the programming world safe from Assembly!</p>
             <div className="flex flex-wrap gap-2 mb-4">
               <span className="gui-tag-sm">React</span>
-              <span className="gui-tag-sm">TypeScript</span>
-              <span className="gui-tag-sm">Web3.js</span>
-              <span className="gui-tag-sm">Ethers.js</span>
+              <span className="gui-tag-sm">JavaScript</span>
               <span className="gui-tag-sm">Tailwind CSS</span>
             </div>
             <div className="flex justify-center gap-6">
-              <a href="https://github.com/saadaltafofficial" className="gui-button">Demo</a>
-              <a href="https://github.com/saadaltafofficial" className="gui-button-outline">GitHub</a>
+              <a href="https://assemblyendgamebysaad.netlify.app/" className="gui-button">Demo</a>
+              <a href="https://github.com/saadaltafofficial/Assembly-Endgame" className="gui-button-outline">GitHub</a>
             </div>
           </motion.div>
           
@@ -186,18 +185,16 @@ const GUIPortfolio: React.FC = () => {
             className="gui-card project-card-gui"
             whileHover={{ y: -5, transition: { duration: 0.2 } }}
           >
-            <h3 className="card-title">Interactive Portfolio</h3>
-            <p className="mb-4">A creative portfolio website with 3D elements, animations, and interactive UI components to showcase my work.</p>
+            <h3 className="card-title">Custom Site in Next.js</h3>
+            <p className="mb-4">Custom site built with Next.js and TypeScript, featuring a responsive design and smooth animations.</p>
             <div className="flex flex-wrap gap-2 mb-4">
               <span className="gui-tag-sm">Next.js</span>
               <span className="gui-tag-sm">TypeScript</span>
-              <span className="gui-tag-sm">Three.js</span>
-              <span className="gui-tag-sm">GSAP</span>
               <span className="gui-tag-sm">Framer Motion</span>
             </div>
             <div className="flex justify-center gap-6">
-              <a href="https://github.com/saadaltafofficial" className="gui-button">Demo</a>
-              <a href="https://github.com/saadaltafofficial" className="gui-button-outline">GitHub</a>
+              <a href="https://sample-design-page-3991jkluz-ignismeows-projects.vercel.app/" className="gui-button">Demo</a>
+              <a href="https://github.com/saadaltafofficial/sample-design-page" className="gui-button-outline">GitHub</a>
             </div>
           </motion.div>
           
@@ -205,38 +202,43 @@ const GUIPortfolio: React.FC = () => {
             className="gui-card project-card-gui"
             whileHover={{ y: -5, transition: { duration: 0.2 } }}
           >
-            <h3 className="card-title">E-Commerce Platform</h3>
-            <p className="mb-4">A full-featured e-commerce solution with product management, cart functionality, and secure payment integration.</p>
+            <h3 className="card-title">Trading Bot on Telegram</h3>
+            <p className="mb-4">A powerful Telegram bot for trading on the Injective Chain directly from Telegram. This bot allows users to manage wallets, check portfolio balances, and execute trades on Injective DEX.</p>
             <div className="flex flex-wrap gap-2 mb-4">
-              <span className="gui-tag-sm">React</span>
               <span className="gui-tag-sm">TypeScript</span>
               <span className="gui-tag-sm">Node.js</span>
               <span className="gui-tag-sm">Express</span>
               <span className="gui-tag-sm">MongoDB</span>
+              <span className="gui-tag-sm">Injective SDK</span>
+              <span className="gui-tag-sm">Ethers.js</span>
             </div>
             <div className="flex justify-center gap-6">
-              <a href="https://github.com/saadaltafofficial" className="gui-button">Demo</a>
-              <a href="https://github.com/saadaltafofficial" className="gui-button-outline">GitHub</a>
+              <a href="https://github.com/saadaltafofficial/injective_tradingbot_telegram" className="gui-button">Demo</a>
+              <a href="https://github.com/saadaltafofficial/injective_tradingbot_telegram" className="gui-button-outline">GitHub</a>
             </div>
           </motion.div>
-          
           <motion.div 
             className="gui-card project-card-gui"
             whileHover={{ y: -5, transition: { duration: 0.2 } }}
           >
-            <h3 className="card-title">Creative Animation Showcase</h3>
-            <p className="mb-4">A collection of creative web animations and interactive elements built with modern animation libraries.</p>
+            <h3 className="card-title">Certificates</h3>
+            <p className="mb-4">Here are some of the certificates I have earned.</p>
             <div className="flex flex-wrap gap-2 mb-4">
+              <span className="gui-tag-sm">TypeScript</span>
+              <span className="gui-tag-sm">Python</span>
               <span className="gui-tag-sm">React</span>
-              <span className="gui-tag-sm">GSAP</span>
-              <span className="gui-tag-sm">Framer Motion</span>
-              <span className="gui-tag-sm">CSS Animations</span>
+              <span className="gui-tag-sm">Node.js</span>
+              <span className="gui-tag-sm">Express</span>
+              <span className="gui-tag-sm">MongoDB</span>
+              <span className="gui-tag-sm">Injective SDK</span>
+              <span className="gui-tag-sm">Ethers.js</span>
             </div>
             <div className="flex justify-center gap-6">
-              <a href="https://github.com/saadaltafofficial" className="gui-button">Demo</a>
-              <a href="https://github.com/saadaltafofficial" className="gui-button-outline">GitHub</a>
+              <a href="https://github.com/saadaltafofficial/certificates" className="gui-button">Demo</a>
+              <a href="https://github.com/saadaltafofficial/certificates" className="gui-button-outline">GitHub</a>
             </div>
           </motion.div>
+          
         </div>
       </section>
 
@@ -273,7 +275,7 @@ const GUIPortfolio: React.FC = () => {
           
           <div className="w-full flex justify-center mt-8">
             <p className="text-center max-w-2xl">
-              Feel free to reach out! I&apos;m always open to new opportunities and collaborations in React, TypeScript, and Web3 development.
+              Open to tech collaborations and opportunities—whether it&apos;s React apps, smart contract integrations, or full-stack solutions. Always up for building and learning.
             </p>
           </div>
         </div>

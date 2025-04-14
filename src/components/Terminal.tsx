@@ -373,40 +373,32 @@ const Terminal: React.FC = () => {
       case "projects":
         return (
           <div className="space-y-5 command-output">
-            <p
-              style={{
-                color: "var(--warning-color)",
-                fontWeight: "bold",
-                marginBottom: "15px",
-              }}
-            >
-              My Projects:
-            </p>
 
             <div className="project-card">
-              <h3>Web3 Wallet Dashboard</h3>
+              <h3>Assembly Endgame</h3>
               <p>
-                A modern dashboard for Web3 wallets with transaction history,
-                portfolio tracking, and NFT display capabilities.
+                Guess the word in under 8 attempts to keep the programming world safe from Assembly!
               </p>
               <p className="text-sm mt-2">
                 <span style={{ color: "var(--info-color)" }}>Tech: </span>
                 <span className="skill-tag">React</span>
-                <span className="skill-tag">TypeScript</span>
-                <span className="skill-tag">Web3.js</span>
-                <span className="skill-tag">Ethers.js</span>
+                <span className="skill-tag">JavaScript</span>
                 <span className="skill-tag">Tailwind CSS</span>
               </p>
               <p className="mt-3">
                 <a
-                  href="https://github.com/saadaltafofficial"
+                  href="https://assemblyendgamebysaad.netlify.app/"
                   className="terminal-link mr-4"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Demo
                 </a>
                 <a
-                  href="https://github.com/saadaltafofficial"
+                  href="https://github.com/saadaltafofficial/Assembly-Endgame"
                   className="terminal-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   GitHub
                 </a>
@@ -414,29 +406,30 @@ const Terminal: React.FC = () => {
             </div>
 
             <div className="project-card">
-              <h3>Interactive Portfolio</h3>
+              <h3>Custom Site in Next.js</h3>
               <p>
-                A creative portfolio website with 3D elements, animations, and
-                interactive UI components to showcase my work.
+                Custom site built with Next.js and TypeScript, featuring a responsive design and smooth animations.
               </p>
               <p className="text-sm mt-2">
                 <span style={{ color: "var(--info-color)" }}>Tech: </span>
                 <span className="skill-tag">Next.js</span>
                 <span className="skill-tag">TypeScript</span>
-                <span className="skill-tag">Three.js</span>
-                <span className="skill-tag">GSAP</span>
                 <span className="skill-tag">Framer Motion</span>
               </p>
               <p className="mt-3">
                 <a
-                  href="https://github.com/saadaltafofficial"
+                  href="https://sample-design-page-3991jkluz-ignismeows-projects.vercel.app/"
                   className="terminal-link mr-4"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Demo
                 </a>
                 <a
-                  href="https://github.com/saadaltafofficial"
+                  href="https://github.com/saadaltafofficial/sample-design-page"
                   className="terminal-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   GitHub
                 </a>
@@ -444,71 +437,72 @@ const Terminal: React.FC = () => {
             </div>
 
             <div className="project-card">
-              <h3>E-Commerce Platform</h3>
+              <h3>Trading Bot on Telegram</h3>
               <p>
-                A full-featured e-commerce solution with product management,
-                cart functionality, and secure payment integration.
+                A powerful Telegram bot for trading on the Injective Chain directly from Telegram. This bot allows users to manage wallets, check portfolio balances, and execute trades on Injective DEX.
               </p>
               <p className="text-sm mt-2">
                 <span style={{ color: "var(--info-color)" }}>Tech: </span>
-                <span className="skill-tag">React</span>
                 <span className="skill-tag">TypeScript</span>
+                <span className="skill-tag">Node.js</span>
+                <span className="skill-tag">Express</span>
+                <span className="skill-tag">MongoDB</span>
+                <span className="skill-tag">Injective SDK</span>
+                <span className="skill-tag">Ethers.js</span>
+              </p>
+              <p className="mt-3">
+                <a
+                  href="https://github.com/saadaltafofficial/injective_tradingbot_telegram"
+                  className="terminal-link mr-4"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Demo
+                </a>
+                <a
+                  href="https://github.com/saadaltafofficial/injective_tradingbot_telegram"
+                  className="terminal-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+              </p>
+            </div>
+
+            <div className="project-card">
+              <h3>Certificates</h3>
+              <p>
+                Here are some of the certificates I have earned.
+              </p>
+              <p className="text-sm mt-2">
+                <span style={{ color: "var(--info-color)" }}>Tech: </span>
+                <span className="skill-tag">TypeScript</span>
+                <span className="skill-tag">Python</span>
+                <span className="skill-tag">React</span>
                 <span className="skill-tag">Node.js</span>
                 <span className="skill-tag">Express</span>
                 <span className="skill-tag">MongoDB</span>
               </p>
               <p className="mt-3">
                 <a
-                  href="https://github.com/saadaltafofficial"
+                  href="https://github.com/saadaltafofficial/certificates"
                   className="terminal-link mr-4"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Demo
                 </a>
                 <a
-                  href="https://github.com/saadaltafofficial"
+                  href="https://github.com/saadaltafofficial/certificates"
                   className="terminal-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   GitHub
                 </a>
               </p>
             </div>
-
-            <div className="project-card">
-              <h3>Creative Animation Showcase</h3>
-              <p>
-                A collection of creative web animations and interactive elements
-                built with modern animation libraries.
-              </p>
-              <p className="text-sm mt-2">
-                <span style={{ color: "var(--info-color)" }}>Tech: </span>
-                <span className="skill-tag">React</span>
-                <span className="skill-tag">GSAP</span>
-                <span className="skill-tag">Framer Motion</span>
-                <span className="skill-tag">CSS Animations</span>
-              </p>
-              <p className="mt-3">
-                <a
-                  href="https://github.com/saadaltafofficial"
-                  className="terminal-link mr-4"
-                >
-                  Demo
-                </a>
-                <a
-                  href="https://github.com/saadaltafofficial"
-                  className="terminal-link"
-                >
-                  GitHub
-                </a>
-              </p>
-            </div>
-
-            <p className="text-sm mt-4">
-              Type{" "}
-              <span style={{ color: "var(--warning-color)" }}>
-                &apos;projects [name]&apos;
-              </span>{" "}
-              to get more details about a specific project.
-            </p>
           </div>
         );
 
@@ -628,12 +622,14 @@ const Terminal: React.FC = () => {
       transition={{ duration: 0.5 }}
     >
       <div className="terminal-header">
-        <div className="flex">
-          <div className="terminal-button"></div>
-          <div className="terminal-button"></div>
-          <div className="terminal-button"></div>
+        <div className="flex items-center">
+          <div className="inline-flex space-x-2 mr-4">
+            <span className="terminal-button inline-block"></span>
+            <span className="terminal-button inline-block"></span>
+            <span className="terminal-button inline-block"></span>
+          </div>
+          <div className="terminal-title">saad-altaf.dev ~ user@terminal</div>
         </div>
-        <div className="terminal-title">saad-altaf.dev ~ user@terminal</div>
       </div>
 
       <div
