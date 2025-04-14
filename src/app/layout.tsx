@@ -13,9 +13,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Terminal Portfolio",
+  title: "Saad Altaf",
   description: "An interactive terminal-style portfolio showcasing projects and skills",
   keywords: ["portfolio", "developer", "terminal", "projects", "skills", "typescript", "nextjs"],
+  icons: {
+    icon: "/dp.png",
+    apple: "/dp.png",
+    shortcut: "/dp.png"
+  }
 };
 
 export default function RootLayout({
